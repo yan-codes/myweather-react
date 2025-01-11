@@ -1,3 +1,18 @@
-.Search form {
-  margin: 0 auto;
+.search-input {
+  background-color: #eaf7f6;
+  border: none;
+  font-size: 16px;
+  border-radius: 7px;
+  width: 80%;
+  padding: 14px 24px;
+}
+
+.search-button {
+  font-size: 16px;
+  background-color: #36b7be;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 14px 24px;
+  text-align: center;
 }

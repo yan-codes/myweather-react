@@ -7,12 +7,13 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World!</h1>
-        <Search />
-        <Weather city="Manila" />
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <div className="Background">
+        <header className="App-header">
+          <h1>Hello World!</h1>
+          <Search />
+          <Weather city="Manila" />
+        </header>
+      </div>
     </div>
   );
 }

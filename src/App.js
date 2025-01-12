@@ -11,7 +11,9 @@ function App() {
         <header className="App-header">
           <Search />
         </header>
-        <Weather city="Manila" />
+        <div className="Main">
+          <Weather />
+        </div>
       </div>
     </div>
   );

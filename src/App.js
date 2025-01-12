@@ -9,10 +9,9 @@ function App() {
     <div className="App">
       <div className="Background">
         <header className="App-header">
-          <h1>Hello World!</h1>
           <Search />
-          <Weather city="Manila" />
         </header>
+        <Weather city="Manila" />
       </div>
     </div>
   );

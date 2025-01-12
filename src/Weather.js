@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import { ColorRing } from "react-loader-spinner";
 
 export default function Weather(props) {
   function handleResponse(response) {
@@ -14,16 +13,6 @@ export default function Weather(props) {
   return (
     <div>
       <h1>Manila</h1>
-      <ColorRing
-        visible={true}
-        height="80"
-        width="80"
-        ariaLabel="color-ring-loading"
-        wrapperStyle={{}}
-        wrapperClass="color-ring-wrapper"
-        colors={["#fefefe", "#f2efee", "#f0a49f", "#f05a7b", "#ffc005"]}
-        timeout={3000}
-      />
     </div>
   );
 }

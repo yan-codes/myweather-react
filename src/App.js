@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Weather from "./Weather";
 import Search from "./Search";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         </header>
         <div className="Main"></div>
       </div>
+      <Footer />
     </div>
   );
 }

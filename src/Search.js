@@ -58,7 +58,7 @@ export default function Search() {
       <div className="Weather">
         {form}
         <div className="Row">
-          <div className="Col">
+          <div className="Col-6">
             <h1 className="Current-city">{city}</h1>
             <p className="Current-details">
               <span className="Time">{weather.time} </span>,{" "}

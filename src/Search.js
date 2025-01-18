@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Search.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 
 export default function Search() {
   const [city, setCity] = useState("Manila");
@@ -55,26 +54,29 @@ export default function Search() {
 
   if (loaded) {
     return (
-      <div className="Weather">
+      <div className="Container">
         {form}
-        <div className="Row">
-          <div className="Col-6">
-            <h1 className="Current-city">{city}</h1>
-            <p className="Current-details">
-              <span className="Time">{weather.time} </span>,{" "}
-              <span className="Description">{weather.description}</span>
-              <br />
-              Humidity: <strong>{weather.humidity}%</strong>, Wind:{" "}
-              <strong>{weather.wind}km/h</strong>
-            </p>
-            <div className="Col-lg-6 col-md-6">
+        <div className="Weather">
+          <div className="Row">
+            <div className="Col-6">
+              <h1 className="Current-city">{city}</h1>
+              <p className="Current-details">
+                <span className="Time">{weather.time} </span>,{" "}
+                <span className="Description">{weather.description}</span>
+                <br />
+                Humidity: <strong>{weather.humidity}%</strong>, Wind:{" "}
+                <strong>{weather.wind}km/h</strong>
+              </p>
+            </div>
+            <div className="Col-lg-6 col-md-6 col-sm-8">
               <div className="Temperature-container">
                 <div className="Icon">
                   <img src={weather.icon} alt={weather.description}></img>
                 </div>
                 <div className="Current-temperature">
-                  {Math.round(weather.temperature)}ºC
+                  {Math.round(weather.temperature)}
                 </div>
+                <div className="Temperature-unit">ºC</div>
               </div>
             </div>
           </div>

@@ -1,3 +1,7 @@
+.Search {
+  padding-bottom: 10px;
+}
+
 .search-input {
   background-color: #eaf7f6;
   border: none;
@@ -19,4 +23,61 @@
 
 .search-button:hover {
   background-color: #63d7de;
+}
+
+.Current-city {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.Weather {
+  justify-content: space-between;
+  margin: 0 20px;
+  padding: 30px 25px 15px;
+}
+
+.Row {
+  display: flex;
+}
+
+.Current-city {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.Current-details {
+  color: rgba (39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.Current-details strong {
+  color: #f65282;
+}
+
+.Temperature-container {
+  display: flex;
+}
+
+.Weather-app-icon {
+  width: 120px;
+  height: 120px;
+  margin-top: -10px;
+  margin-right: -5px;
+}
+
+.Current-temperature {
+  font-size: 80px;
+  margin-left: 10px;
+  line-height: 88px;
+  font-weight: bold;
+}
+
+.Temperature-unit {
+  font-size: 28px;
+  margin-top: 6px;
+  display: block;
 }

@@ -3,15 +3,14 @@ import "./App.css";
 import Weather from "./Weather";
 import Search from "./Search";
 import Footer from "./Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function App() {
   return (
     <div className="App">
       <div className="Background">
-        <header className="App-header">
-          <Search />
-        </header>
-        <div className="Main"></div>
+        <Search />
       </div>
       <Footer />
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherTemperature from "./WeatherTemperature.js";
 
 export default function CurrentInfo(props) {
   return (
@@ -9,10 +10,10 @@ export default function CurrentInfo(props) {
           <h1 className="Current-city">{props.data.city}</h1>
           <ul className="Current-details">
             <li className="Time">
-              <FormattedDate date={props.data.date} />,{" "}
-              <p className="Description text-capitalize mb-0">
-                {props.data.description}
-              </p>
+              <FormattedDate date={props.data.date} />
+            </li>
+            <li className="Description text-capitalize mb-0">
+              {props.data.description}
             </li>
             <li>
               Humidity: <strong>{props.data.humidity}%</strong>, Wind:{" "}
@@ -20,15 +21,14 @@ export default function CurrentInfo(props) {
             </li>
           </ul>
         </div>
-        <div className="Col-lg-6 col-md-6 col-sm-8">
+        <div className="Col-lg-6 col-md-6">
           <div className="Temperature-container">
             <div className="Icon">
               <img src={props.data.icon} alt={props.data.description}></img>
             </div>
-            <div className="Current-temperature">
-              {Math.round(props.data.temperature)}
+            <div>
+              <WeatherTemperature celsius={props.data.temperature} />
             </div>
-            <div className="Temperature-unit">ºC</div>
           </div>
         </div>
       </div>

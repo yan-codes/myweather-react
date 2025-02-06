@@ -10,11 +10,19 @@ export default function Footer() {
           Dianne Louise
         </a>
         , is open-sourced on{" "}
-        <a href="https://github.com/yan-codes/myweather-react" target="_blank">
+        <a
+          href="https://github.com/yan-codes/myweather-react"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Git-hub
         </a>{" "}
         and hosted on{" "}
-        <a href="https://mermaid-myweather-react.netlify.app" target="_blank">
+        <a
+          href="https://mermaid-myweather-react.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Netlify
         </a>
       </p>

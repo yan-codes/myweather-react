@@ -5,8 +5,8 @@ import WeatherTemperature from "./WeatherTemperature.js";
 export default function CurrentInfo(props) {
   return (
     <div className="CurrentInfo">
-      <div className="Row d-flex">
-        <div className="Col-6">
+      <div className="row">
+        <div className="col-6">
           <h1 className="Current-city">{props.data.city}</h1>
           <ul className="Current-details">
             <li className="Time">
@@ -21,7 +21,7 @@ export default function CurrentInfo(props) {
             </li>
           </ul>
         </div>
-        <div className="Col-lg-6 col-md-6">
+        <div className="col-lg-6 col-md-6 col-sm-8">
           <div className="Temperature-container">
             <div className="Icon">
               <img src={props.data.icon} alt={props.data.description}></img>

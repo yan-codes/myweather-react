@@ -39,13 +39,6 @@
   padding: 30px 5px 15px;
 }
 
-.d-flex {
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-evenly;
-}
-
 .col-lg-6 {
   padding-left: 20px;
 }

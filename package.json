@@ -6,6 +6,7 @@
     "@babel/plugin-transform-class-properties": "^7.25.9",
     "@babel/plugin-transform-numeric-separator": "^7.25.9",
     "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@bybas/weather-icons": "^2.0.0",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",

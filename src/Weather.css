@@ -30,8 +30,8 @@
 
 .Weather {
   justify-content: space-between;
-  margin: 0 20px;
-  padding: 30px 0px 15px;
+  margin: 15px 10px;
+  padding: 30px 8px 15px;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -44,10 +44,10 @@
 }
 
 .Weather img {
-  width: 110px;
-  height: 110px;
-  margin-top: -10px;
-  margin-right: -5px;
+  width: 75px;
+  height: 75px;
+  margin-top: 9px;
+  margin-left: 29px;
 }
 
 .Current-city {
@@ -89,7 +89,7 @@
   font-size: 18px;
   position: relative;
   top: -40px;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 2px;
 }
 

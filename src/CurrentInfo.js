@@ -18,13 +18,18 @@ export default function CurrentInfo(props) {
             </li>
             <li>
               Humidity: <strong>{props.data.humidity}%</strong>, Wind:{" "}
-              <strong>{props.data.wind}km/h</strong>
+              <strong>{props.data.wind} km/h</strong>
             </li>
           </ul>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-8">
           <div className="Temperature-container">
-            <WeatherIcon code={props.data.icon} alt={props.data.description} />
+            <div className="Icon">
+              <WeatherIcon
+                code={props.data.icon}
+                alt={props.data.description}
+              />
+            </div>
             <WeatherTemperature celsius={props.data.temperature} />
           </div>
         </div>

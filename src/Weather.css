@@ -43,9 +43,7 @@
   padding-left: 20px;
 }
 
-.Weather img {
-  width: 75px;
-  height: 75px;
+.Weather canvas {
   margin-top: 9px;
   margin-left: 29px;
 }
@@ -83,6 +81,7 @@
   font-size: 75px;
   line-height: 88px;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .Temperature-unit {

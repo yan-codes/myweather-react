@@ -43,8 +43,7 @@
   padding-left: 20px;
 }
 
-.Weather canvas {
-  margin-top: 9px;
+.Icon {
   margin-left: 29px;
 }
 
@@ -79,9 +78,9 @@
 
 .Current-temperature {
   font-size: 75px;
-  line-height: 88px;
+  line-height: 72px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .Temperature-unit {

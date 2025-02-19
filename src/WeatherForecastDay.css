@@ -8,3 +8,8 @@
   margin-top: 3px;
   font-weight: 600;
 }
+
+.WeatherForecast-temp-min {
+  opacity: 0.6;
+  margin-left: 10px;
+}

@@ -12,7 +12,7 @@
 }
 
 .Search {
-  padding-bottom: 20px;
+  margin-bottom: 15px;
 }
 .search-button {
   font-size: 16px;
@@ -31,20 +31,16 @@
 .Weather {
   justify-content: space-between;
   margin: 15px 10px;
-  padding: 30px 8px 15px;
+  padding: 20px 8px 15px;
   font-family: "Oxygen", sans-serif;
 }
 
 .CurrentInfo {
-  padding: 30px 5px 15px;
+  padding: 15px 15px 15px;
 }
 
 .col-lg-6 {
   padding-left: 20px;
-}
-
-.Icon {
-  margin-left: 29px;
 }
 
 .Current-city {
@@ -74,6 +70,7 @@
 
 .Temperature-container {
   display: flex;
+  margin-left: 40px;
 }
 
 .Current-temperature {

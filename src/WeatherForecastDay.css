@@ -1,0 +1,10 @@
+.WeatherForecast-day {
+  margin-bottom: 10px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+.WeatherForecast-temps {
+  margin-top: 3px;
+  font-weight: 600;
+}

@@ -6,7 +6,12 @@ export default function Footer() {
     <div className="Footer">
       <p className="Footer-links">
         This project was coded by{" "}
-        <a href="mailto:dlpcardenas@gmail.com" target="_blank">
+        <a
+          href="mailto:dlpcardenas@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="Yan"
+        >
           Dianne Louise
         </a>
         , is open-sourced on{" "}
@@ -14,6 +19,7 @@ export default function Footer() {
           href="https://github.com/yan-codes/myweather-react"
           target="_blank"
           rel="noopener noreferrer"
+          className="Git"
         >
           Git-hub
         </a>{" "}
@@ -22,6 +28,7 @@ export default function Footer() {
           href="https://mermaid-myweather-react.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
+          className="Netli"
         >
           Netlify
         </a>

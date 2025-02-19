@@ -9,7 +9,18 @@
 }
 
 .Footer a {
-  color: #f65282;
   text-decoration: none;
   font-weight: 700;
+}
+
+.Yan {
+  color: #f65282;
+}
+
+.Git {
+  color: blueviolet;
+}
+
+.Netli {
+  color: #36b7be;
 }
